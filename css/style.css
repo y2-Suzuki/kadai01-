@@ -1,0 +1,549 @@
+/* ここから下に記載していく */
+/* ここからヘッダーデザイン */
+
+.header__nav{
+     display: flex;
+}
+.header__nav li{
+   margin-left: 50px;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    /* width: 100%; */
+   }
+  /* jystify-contentは左右の幅を合わせてくれるもの 
+  align-items: center; はdisplay: flex; と併用する前提のもの*/
+  
+  /* ここからメインビジュアル */
+.mainvisual{
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainvisual__title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 180px;
+}
+.mainvisual__subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+.imgBOX {
+    display: flex;
+    margin-bottom: 50px;
+}
+.imgBox p {
+    width: 25%;
+}
+
+.imgBox p img {
+    width: 100%;
+}
+
+
+.about{
+  text-align: center;
+  margin: 50px 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.about__title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffd61a;
+  margin-bottom: 20px;
+}
+
+.about__subtitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.about__text {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Courseのタイトル */
+.course {
+  text-align: center;
+  margin: 50px 0; 
+}
+
+}
+.course__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.course__text{
+    text-align: center;
+    font-size: 16px;
+    margin: 0 70px;
+    margin-bottom: 50px;
+}
+
+.course__box{
+  margin-top: 50px;
+}      
+
+.course__inner {
+  display: flex;
+}
+.course__content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.content__right {
+  width: 70%;
+  margin-right: 50px;
+}
+
+.course__content__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.content__right {
+  width: 70%;
+  margin-right: 50px;
+}
+
+.course__content__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.content__right {
+  width: 70%;
+  margin-right: 50px;
+}
+
+/* course */
+.course {
+  margin: 50px 0;
+}
+
+.course__title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.course__text {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 70px;
+}
+
+.course__box {
+  margin-top: 50px;
+}
+
+.course__inner {
+  display: flex;
+}
+
+.course__content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.course__content__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.course__content img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.content__title {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.content__text {
+  width: 100%;
+}
+
+.content__left {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.content__right {
+  width: 70%;
+  margin-right: 50px;
+}
+
+/* NEWS */
+.NEWS {
+  margin: 50px 0;
+}
+
+.NEWS__title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.NEWS__text {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+
+#cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {x;
+  border: 1px solid lightgray;
+  opacity: 1;
+  width: 300px;
+  height: 315p
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  margin: 30px;
+}
+
+.card :hover img{
+  opacity: .5;
+}
+
+.card:nth-child(2) {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.picture img {
+  width: 100%;
+  height: 200px;
+}
+
+.description {
+  width: 100%;
+  height: 145px;
+  padding-right: 12px;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+
+.description p {
+  font-size: 13px;
+  color: dimgray;
+}
+
+/* More */
+.More {
+  width: 250px;
+  background-color: rgb(73, 74, 75);
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 100vh;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.More:hover{background: #ffd61a;
+color: #fff;
+}
+
+
+/* Acc */
+.Access {
+  margin: 50px 0;
+  padding : 30px ;
+  background-color:#ccc
+}
+
+.Access__title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.Access__text {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 70px;
+  margin: 30px;
+}
+
+.Access__MAP{
+   text-align: center;
+   margin-bottom: 60px;
+   }
+
+.content__text1{
+  text-align: center;
+  margin: 30px;
+}
+
+/* Contact */
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(51, 51, 51);
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+.Form {
+    width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.contact-ttl {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-ttl1{
+  font-size: px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+/*.contact-item,*/
+.contact-body {
+    padding: 20px;
+    border: 1px solid #ccc;
+    
+}
+
+.contact-item {
+  text-align: center;
+  vertical-align:middle;
+  width: 30%;
+  background-color: #eee;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-body {
+    width: 70%;
+}
+
+.form-text {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+}
+
+
+.contact-item__1,
+.contact-body__1{
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+/* .contact-sex-txt {
+    display: inline-block;
+    margin-left: 5px;
+} */
+
+.form-select {
+    width: 180px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-skill {
+    display: block;
+}
+
+.contact-skill + .contact-skill {
+    margin-top: 10px;
+}
+
+.contact-skill-txt {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.contact-submit {
+    width: 250px;
+    background-color: rgb(73, 74, 75);
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 100vh;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.contact-submit:hover{background: #ffd61a;
+	color: #fff;
+}
+
+/* Copyrigt */
+.Copyrigt{
+  margin: 50px 0;
+  font-size: 15px;
+  text-align: center;
+  padding : 30px ;
+  background-color: #ccc;
+}
+
+/* スクロール */
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #ffd61a;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/* オープニング */
+.shutter{
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin: auto;
+  background-color:#fff;
+  z-index:99;
+  -webkit-animation: byeShutter 2.4s forwards;
+  animation: byeShutter 2.4s forwards;
+}
+.logo1 {
+  position: absolute;
+  width: 500px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-animation: logo 0.8s forwards;
+  animation: logo 0.8s forwards;
+  animation-delay: 0.2s;
+}
+@keyframes byeShutter {
+70% {
+  opacity: 1;
+}
+100% {
+  display: none;
+  opacity: 0;
+  z-index: -1;
+}
+}
+@keyframes logo {
+0% {
+  opacity: 1;
+}
+  
+50% {
+  transform: rotate(0deg);     
+}
+  100% {
+  transform: scale(0.8);
+  }
+}
